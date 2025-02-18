@@ -7,7 +7,7 @@ values = None
 
 currency = CurrencyConverter()
 
-token = "7869731884:AAG35BNm9if41n2U1Iy656YgtnYJMfUYvaA"
+token = "token"
 bot = telebot.TeleBot(token=token)
 
 @bot.message_handler(commands=['start', 'konvert'])
